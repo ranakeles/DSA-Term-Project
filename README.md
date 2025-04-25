@@ -13,7 +13,26 @@ In this project, I will analyze data from the TMDB Movies dataset and the Global
    - **Use in Project:** Comparing inflation rates with movie industry performance.
 
 ## Data Collection Plan
-- **Step 1:** Download both datasets from their sources.
-- **Step 2:** Load the data into Python using Pandas to analyze it.
-- **Step 3:** Clean and prepare the data by fixing missing values and making sure the data types are correct.
-- **Step 4:** Combine the datasets by matching the time periods to compare the data.
+
+1. **Data Collection**
+	-	**Sources:** TMDB Movies dataset and Global Inflation dataset were used from public platforms like data.world and Kaggle.
+	-	The project focuses on the years 2000 to 2010 to align both datasets by year.
+
+
+2. **Data Cleaning**
+	-	**Merging:** Datasets were merged by matching each movie’s release year with the corresponding year in the inflation data.
+	-	**Handling Missing Data:** Rows with missing or zero revenue were dropped, genre data was cleaned, and date formats were corrected.
+
+
+3. **Exploratory Data Analysis (EDA)**
+	-	**Visualization:** Bar charts, boxplots, scatter plots, and heatmaps were used to explore trends in revenue, genre, inflation, and production counts.
+	-	**Statistics:** Summary statistics were calculated to better understand the distributions of revenue and inflation values.
+
+
+4. **Hypothesis Testing**
+	-	**Revenue Test:** A t-test was used to check if there’s a significant difference in average revenue between low and high-inflation years.
+	-	**Genre Test:** A chi-square test was performed to examine if inflation level affects genre distribution.
+
+
+5. **Conclusion**
+	
