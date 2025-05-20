@@ -33,6 +33,15 @@ In this project, I will analyze data from the TMDB Movies dataset and the Global
 	-	**Revenue Test:** A t-test was used to check if there’s a significant difference in average revenue between low and high-inflation years.
 	-	**Genre Test:** A chi-square test was performed to examine if inflation level affects genre distribution.
 
+5. **Machine Learning Methods**
 
-5. **Conclusion**
+	- 	**Regression:** A Linear Regression model was trained using inflation and movie-related features (vote count, rating, release year) to predict movie revenues. The model achieved an R² score of 0.73.
+
+	-	 **Classification:** Multiple classification models (Logistic Regression, Decision Tree, Random Forest, KNN, XGBoost) were applied to classify movies as high or low revenue. Random Forest performed best with an accuracy of 80.3%.
+
+	-	**Genre as a Feature:** Adding genre information improved classification accuracy to 81.8%, showing that genre helps predict revenue, even though it is not directly influenced by inflation.
+
+	- 	**Genre as Target:** A separate model attempted to predict a movie’s genre based on inflation and numeric features, achieving only 24.9% accuracy. This supports the hypothesis that inflation does not determine genre popularity.
+
+6. **Conclusion**
 	
