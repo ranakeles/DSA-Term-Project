@@ -43,5 +43,15 @@ In this project, I will analyze data from the TMDB Movies dataset and the Global
 
 	- 	**Genre as Target:** A separate model attempted to predict a movie’s genre based on inflation and numeric features, achieving only 24.9% accuracy. This supports the hypothesis that inflation does not determine genre popularity.
 
-6. **Conclusion**
+6. **Conclusion & General Interpretation**
+   
+   This project aimed to investigate the potential relationship between global inflation rates and movie industry trends, focusing 	specifically on revenues and popular genres. By integrating data from the TMDB Movies dataset and the Global Inflation dataset, I conducted a detailed exploratory data analysis, statistical testing, and machine learning modeling.
+
+	My analysis revealed that global inflation shows a weak to moderate negative correlation with average movie revenues, particularly during years of economic instability. However, the correlation is not strong enough to make conclusive causal claims.
+
+	In terms of genre trends, inflation did not appear to have a direct or consistent influence on genre popularity. While minor fluctuations were observed in genre frequency over time, they are more likely to be driven by other cultural or economic factors.
+
+	Through machine learning models, especially regression-based approaches, I was able to reasonably predict movie revenues based on features such as budget, runtime, and release year. Adding inflation as a feature showed only a small impact on prediction accuracy, reinforcing the idea that other variables have a stronger influence on box office outcomes.
+
+	Overall, this project demonstrated the value of cross-domain data integration and the importance of combining statistical insight with machine learning to explore real-world trends.
 	
